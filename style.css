@@ -3,78 +3,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
 body{
-  background-color:bisque;
+  background-color:rgb(236, 230, 221);
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; /* if you want the light version */
-  color: red;
-  font-size: 12px;
+  color: rgb(65, 51, 51);
+  font-size: 14px;
   line-height: 5px;
+  text-align: center;
+  justify-content: center;
 }
 
 h1{
-  color:red;
-  font-family: 'Franklin Gothic Medium';
-  font-size: 14px;
+  color:rgb(79, 51, 51);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   line-height: 5px;
 }
 
 
 h2, h3{
-  color:coral;
-  font-family: 'Franklin Gothic Medium';
-  font-size: 12px;
+  color:rgb(10, 37, 37);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   line-height: 5px;
 }
-
-
-a{
-  text-decoration: none;
-  a-hover
-}
-
-.img-circle {
+img{
   border-radius: 50%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.card-white {
-  background: white;
-  padding: 30px;
-  border: 1px solid lightgrey;
-}
-
-.container {
-  width: 500px;   /* Définit la largeur */
-  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-  list-style: none;
-  padding-left: 0px;
-}
-
-@media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
-  .container {
-    width: 700px;
-  }
 }
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
     width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
-  .container {
-    width: 300px;
   }
 }
